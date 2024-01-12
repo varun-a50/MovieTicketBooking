@@ -44,7 +44,7 @@ function ShowData(props) {
                             <div className="card-body">
                                 <h1 className="card-title">{list.show.name}</h1>
                                 <p className="card-text">{list.show.language}</p>
-                                <a href="/MovieBooking.js" state={{ data: list.show.name }} className="btn btn-primary">More</a>
+                                <a href="MovieTicketBooking/MovieBooking" state={{ data: list.show.name }} className="btn btn-primary">More</a>
 
                             </div>
                         
