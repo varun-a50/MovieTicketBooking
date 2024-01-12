@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import './MovieBooking.css'
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -47,9 +48,9 @@ const MovieBooking = (props) => {
                         <b><p className="card-text">Language : {record.language}</p></b>
                         <p className="card-text" dangerouslySetInnerHTML={{ __html: record.summary }}></p>
                         <div className="text-center">
-                            <Link to="/TicketBooking" state={{ data: record.name }} className="btn btn-primary">
+                            <a href="/TicketBooking" state={{ data: record.name }} className="btn btn-primary">
                                 Book your Ticket
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
