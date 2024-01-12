@@ -1,3 +1,11 @@
+
+![Screenshot 2024-01-12 233906](https://github.com/varun-a50/MovieTicketBooking/assets/56962637/6174ff32-a0ad-4c93-b354-9077ed7eed9c)
+![Screenshot 2024-01-12 233831](https://github.com/varun-a50/MovieTicketBooking/assets/56962637/fc4bb39d-8cb0-4ed6-8454-ac6dcd271360)
+![Screenshot 2024-01-12 233849](https://github.com/varun-a50/MovieTicketBooking/assets/56962637/849434ee-c58f-4cc7-8dd8-29938db7bb33)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
