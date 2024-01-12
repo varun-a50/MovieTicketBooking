@@ -19,7 +19,15 @@ const TicketBooking = (props) => {
         e.preventDefault();
         var number = document.getElementById('value').value; 
     var total = number * 120;
-        alert(number!=0? `The ticket for  ${number} persons,totaling ${total}, has been booked!`:'first type number of persons');
+    if (number !== 0) {
+        // Store the 'number' variable in local storage
+        localStorage.setItem('numberOfPersons', number);
+        
+        // Show an alert with the booking details
+        alert(`The ticket for ${number} persons, totaling ${total}, has been booked!`);
+    } else {
+        alert('Please enter the number of persons.');
+    }
       };
       
 
