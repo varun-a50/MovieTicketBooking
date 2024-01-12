@@ -4,12 +4,12 @@ import ShowData from './components/ShowData';
 import MovieBooking from './components/MovieBooking';
 import TicketBooking from './components/TicketBooking';
 
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
   
-// } from "react-router-dom";
+} from "react-router-dom";
 
 
 
@@ -19,18 +19,18 @@ function App() {
   
   return (
     <>
-      {/* <Router> */}
+      <Router>
       <div>   
-        {/* <Routes> */}
-          {/* <Route exact path="/" element={<ShowData/>}></Route> */}
+        <Routes>
+          <Route exact path="/" element={<ShowData/>}></Route>
           <ShowData/>
-          {/* <Route exact path="/MovieBooking" element={<MovieBooking/> } /> */}
+          <Route exact path="/MovieBooking" element={<MovieBooking/> } />
           
-          {/* <Route exact path="/TicketBooking" element={<TicketBooking/> } /> */}
+          <Route exact path="/TicketBooking" element={<TicketBooking/> } />
           
-        {/* </Routes>     */}
+        </Routes>    
       </div>
-      {/* </Router> */}
+      </Router>
       </>
     
   );
