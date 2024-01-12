@@ -48,9 +48,9 @@ const MovieBooking = (props) => {
                         <b><p className="card-text">Language : {record.language}</p></b>
                         <p className="card-text" dangerouslySetInnerHTML={{ __html: record.summary }}></p>
                         <div className="text-center">
-                            <a href="/TicketBooking" state={{ data: record.name }} className="btn btn-primary">
+                            <Link href="/TicketBooking" state={{ data: record.name }} className="btn btn-primary">
                                 Book your Ticket
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

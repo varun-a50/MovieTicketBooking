@@ -25,7 +25,9 @@ function App() {
           {/* <Route exact path="/" element={<ShowData/>}></Route> */}
           <ShowData/>
           {/* <Route exact path="/MovieBooking" element={<MovieBooking/> } /> */}
+          
           {/* <Route exact path="/TicketBooking" element={<TicketBooking/> } /> */}
+          
         {/* </Routes>     */}
       </div>
       {/* </Router> */}

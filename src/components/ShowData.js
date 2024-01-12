@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './ShowData.css'
 
-// import {
-//     Link
+import {
+    Link
 
-// } from "react-router-dom";
+} from "react-router-dom";
 
 
 function ShowData(props) {
@@ -44,7 +44,7 @@ function ShowData(props) {
                             <div className="card-body">
                                 <h1 className="card-title">{list.show.name}</h1>
                                 <p className="card-text">{list.show.language}</p>
-                                <a href="MovieTicketBooking/MovieBooking" state={{ data: list.show.name }} className="btn btn-primary">More</a>
+                                <Link href="/MovieBooking" state={{ data: list.show.name }} className="btn btn-primary">More</Link>
 
                             </div>
                         
