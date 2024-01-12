@@ -1,0 +1,35 @@
+.full-screen-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 80%; /* You can adjust this value based on your preference */
+    max-width: 600px; /* Set a maximum width for better readability on larger screens */
+  }
+  
+  .con {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bootmm {
+    position: absolute;
+  top: 8px;
+  right: 16px;
+    color: yellow;
+    
+  }
+
+  
